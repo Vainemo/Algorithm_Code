@@ -14,8 +14,10 @@
         #endregion
         static void Main(string[] args)
         {
-            int[] ints = { 1, 2, 3,4,5,6,7,8 };
-           int result=Solution(ints,2);
+            int[] ints = { -9, 2, -3,4,-4,6,7,8 };
+            int result=Solution(ints,2);
+            int result1=Solution1(ints,2);
+            int[] ints2 = Solution2(ints);
         }
         /// <summary>
         /// 快慢指针
@@ -65,5 +67,32 @@
             }
             return leftIndex;
         }
+
+        #region 问题描述
+        /*给你一个按 非递减顺序 排序的整数数组 nums，返回 每个数字的平方 组成的新数组，要求也按 非递减顺序 排序。
+        示例 1：
+        输入：nums = [-4,-1,0,3,10]
+        输出：[0,1,9,16,100]
+        解释：平方后，数组变为[16, 1, 0, 9, 100]，排序后，数组变为[0, 1, 9, 16, 100]
+        */
+        #endregion
+        static int[] Solution2(int[] ints)
+        {
+            int[] result=new int[ints.Length];
+            int leftIndex=0, rightIndex=ints.Length - 1;
+            while (leftIndex <=rightIndex)
+            {
+                if (ints[leftIndex]* ints[leftIndex] > ints[rightIndex] * ints[rightIndex])
+                {
+                    result[rightIndex--] = ints[leftIndex] * ints[leftIndex++];
+                }
+                else
+                {
+                    result[rightIndex] = ints[rightIndex] * ints[rightIndex--];
+                }
+            }
+            return result;
+        }
+
     }
 }

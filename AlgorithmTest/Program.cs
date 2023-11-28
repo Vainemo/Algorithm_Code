@@ -27,7 +27,7 @@
         /// <returns></returns>
         public static int Search(int[] ints, int Target)
         {
-            
+            //循环不变量：循环过程中保持不变的性质。当前是搜索边界
             int left = 0;
             int right=ints.Length-1;
             int Middle;
