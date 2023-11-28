@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "二分查找", "二分查找.csproj", "{D8797A88-C050-4F6C-81E2-F1DBC9F1460D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数组", "数组", "{451EC411-CCDF-4438-A86E-ACD27A6EB92B}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Maxwell\Desktop\数组.png = C:\Users\Maxwell\Desktop\数组.png
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "双指针", "..\快慢指针\双指针.csproj", "{CF60A192-F534-46CD-A5A1-26D7A416F21B}"
 EndProject
