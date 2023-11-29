@@ -10,11 +10,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数组", "数组", "{451EC4
 		C:\Users\Maxwell\Desktop\数组.png = C:\Users\Maxwell\Desktop\数组.png
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "双指针", "..\快慢指针\双指针.csproj", "{CF60A192-F534-46CD-A5A1-26D7A416F21B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "双指针", "..\快慢指针\双指针.csproj", "{CF60A192-F534-46CD-A5A1-26D7A416F21B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "滑动窗口", "..\滑动窗口\滑动窗口.csproj", "{698E2685-CA9A-43E5-AA46-C0EE8C10174B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "滑动窗口", "..\滑动窗口\滑动窗口.csproj", "{698E2685-CA9A-43E5-AA46-C0EE8C10174B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "螺旋矩阵", "..\螺旋矩阵\螺旋矩阵.csproj", "{151E792A-E16B-4F25-AA39-DA64AE377234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "螺旋矩阵", "..\螺旋矩阵\螺旋矩阵.csproj", "{151E792A-E16B-4F25-AA39-DA64AE377234}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "链表", "链表", "{4F2C8160-26DF-4254-89E8-9AE633B483D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "删除元素", "..\删除元素\删除元素.csproj", "{920585CE-AE7F-4DF7-A84C-F63B1EADC712}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{42985807-C05B-4D6E-9C8B-EE171FFDCC1E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +47,10 @@ Global
 		{151E792A-E16B-4F25-AA39-DA64AE377234}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{151E792A-E16B-4F25-AA39-DA64AE377234}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{151E792A-E16B-4F25-AA39-DA64AE377234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920585CE-AE7F-4DF7-A84C-F63B1EADC712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920585CE-AE7F-4DF7-A84C-F63B1EADC712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920585CE-AE7F-4DF7-A84C-F63B1EADC712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920585CE-AE7F-4DF7-A84C-F63B1EADC712}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +60,7 @@ Global
 		{CF60A192-F534-46CD-A5A1-26D7A416F21B} = {451EC411-CCDF-4438-A86E-ACD27A6EB92B}
 		{698E2685-CA9A-43E5-AA46-C0EE8C10174B} = {451EC411-CCDF-4438-A86E-ACD27A6EB92B}
 		{151E792A-E16B-4F25-AA39-DA64AE377234} = {451EC411-CCDF-4438-A86E-ACD27A6EB92B}
+		{920585CE-AE7F-4DF7-A84C-F63B1EADC712} = {4F2C8160-26DF-4254-89E8-9AE633B483D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F91DE4E-B6B9-4866-A0E0-78C4F67FD1DD}
