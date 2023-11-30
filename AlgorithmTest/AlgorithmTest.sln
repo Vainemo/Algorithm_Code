@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "设计链表", "..\设计链表\设计链表.csproj", "{8AA8B219-A3B8-4C8C-A7A0-BAC823316009}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{920585CE-AE7F-4DF7-A84C-F63B1EADC712}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{920585CE-AE7F-4DF7-A84C-F63B1EADC712}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{920585CE-AE7F-4DF7-A84C-F63B1EADC712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA8B219-A3B8-4C8C-A7A0-BAC823316009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA8B219-A3B8-4C8C-A7A0-BAC823316009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA8B219-A3B8-4C8C-A7A0-BAC823316009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA8B219-A3B8-4C8C-A7A0-BAC823316009}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{698E2685-CA9A-43E5-AA46-C0EE8C10174B} = {451EC411-CCDF-4438-A86E-ACD27A6EB92B}
 		{151E792A-E16B-4F25-AA39-DA64AE377234} = {451EC411-CCDF-4438-A86E-ACD27A6EB92B}
 		{920585CE-AE7F-4DF7-A84C-F63B1EADC712} = {4F2C8160-26DF-4254-89E8-9AE633B483D4}
+		{8AA8B219-A3B8-4C8C-A7A0-BAC823316009} = {4F2C8160-26DF-4254-89E8-9AE633B483D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F91DE4E-B6B9-4866-A0E0-78C4F67FD1DD}
