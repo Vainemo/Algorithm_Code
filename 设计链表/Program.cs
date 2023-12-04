@@ -52,16 +52,17 @@ namespace 设计链表
         public int Get(int index)
         {
             ListNode tempListNode = _virtualHead;
-            if (index<0||index>_count-1)
+            if (index<0||index>_count)
             {
                 return -1;
             }
-            while (index>0) 
+            //可以考虑改用for循环，更直观
+            while (index>=0) 
             {
                 tempListNode=tempListNode.Next;
                 index--;
             }
-            return tempListNode.Next.Value;
+            return tempListNode.Value;
         }
         /// <summary>
         /// 将值为 val 的节点追加到链表的最后一个元素
@@ -117,7 +118,7 @@ namespace 设计链表
             else
             {
                 ListNode tempListNode = _virtualHead;
-                while (index>1)
+                while (index>0)
                 {
                     tempListNode= _virtualHead.Next;
                     index--;
@@ -139,7 +140,7 @@ namespace 设计链表
                 return;
             }
             ListNode tempListNode = _virtualHead;
-            while (index > 1)
+            while (index >=0)
             {
                 tempListNode = _virtualHead.Next;
                 index--;
