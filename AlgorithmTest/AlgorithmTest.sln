@@ -29,7 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "设计链表", "..\设计�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "反转链表", "..\反转链表\反转链表.csproj", "{EF3176ED-9B13-41F7-8B51-1BB46AE7CC3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "交换元素", "..\交换元素\交换元素.csproj", "{AC611C92-60E2-4637-897E-6B5F8C24772C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "交换元素", "..\交换元素\交换元素.csproj", "{AC611C92-60E2-4637-897E-6B5F8C24772C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "删除倒数第N个元素", "..\删除倒数第N个元素\删除倒数第N个元素.csproj", "{CD73D245-ECD6-46CF-A010-FAD841581981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "链表相交", "..\链表相交\链表相交.csproj", "{E31185B8-6FA5-4168-9D47-8CD5D3856BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "环形链表", "..\环形链表\环形链表.csproj", "{58C8997D-F880-484C-9681-6818D4A13A72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{AC611C92-60E2-4637-897E-6B5F8C24772C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC611C92-60E2-4637-897E-6B5F8C24772C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC611C92-60E2-4637-897E-6B5F8C24772C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD73D245-ECD6-46CF-A010-FAD841581981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD73D245-ECD6-46CF-A010-FAD841581981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD73D245-ECD6-46CF-A010-FAD841581981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD73D245-ECD6-46CF-A010-FAD841581981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31185B8-6FA5-4168-9D47-8CD5D3856BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31185B8-6FA5-4168-9D47-8CD5D3856BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31185B8-6FA5-4168-9D47-8CD5D3856BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31185B8-6FA5-4168-9D47-8CD5D3856BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C8997D-F880-484C-9681-6818D4A13A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C8997D-F880-484C-9681-6818D4A13A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C8997D-F880-484C-9681-6818D4A13A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C8997D-F880-484C-9681-6818D4A13A72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +100,9 @@ Global
 		{8AA8B219-A3B8-4C8C-A7A0-BAC823316009} = {4F2C8160-26DF-4254-89E8-9AE633B483D4}
 		{EF3176ED-9B13-41F7-8B51-1BB46AE7CC3C} = {4F2C8160-26DF-4254-89E8-9AE633B483D4}
 		{AC611C92-60E2-4637-897E-6B5F8C24772C} = {4F2C8160-26DF-4254-89E8-9AE633B483D4}
+		{CD73D245-ECD6-46CF-A010-FAD841581981} = {4F2C8160-26DF-4254-89E8-9AE633B483D4}
+		{E31185B8-6FA5-4168-9D47-8CD5D3856BE5} = {4F2C8160-26DF-4254-89E8-9AE633B483D4}
+		{58C8997D-F880-484C-9681-6818D4A13A72} = {4F2C8160-26DF-4254-89E8-9AE633B483D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F91DE4E-B6B9-4866-A0E0-78C4F67FD1DD}
