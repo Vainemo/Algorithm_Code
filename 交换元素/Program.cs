@@ -9,11 +9,17 @@
     {
         static void Main(string[] args)
         {
-            ListNode head = new ListNode(1);
-            head.Next = new ListNode(2);
-            head.Next.Next = new ListNode(3);
-            head.Next.Next.Next = new ListNode(4);
-            ListNode? node=Solution(head);
+            //ListNode head = new ListNode(1);
+            //head.Next = new ListNode(2);
+            //head.Next.Next = new ListNode(3);
+            //head.Next.Next.Next = new ListNode(4);
+            //ListNode? node=Solution(head);
+            xx AA= new xx();
+            AA.Value = 1;
+            xx BB = AA;
+            Console.WriteLine(BB.Value);
+            AA.Value = 2;
+            Console.WriteLine(BB.Value);
             Console.WriteLine( "11");
         }
         /// <summary>
@@ -35,12 +41,32 @@
             cur.Next = head;
             return cur;
         }
+        /// <summary>
+        /// 循环
+        /// </summary>
+        /// <param name="head"></param>
+        /// <returns></returns>
         public static ListNode? Solution1(ListNode? head)
         {
+            //虚拟头节点
             ListNode dummyHead=new ListNode(0);
-            dummyHead.Next = head.Next;
-            head.Next = head;
+            dummyHead.Next = head;
+            ListNode cur = dummyHead;
+            //循环不变量，cur指向两个元素中的第一个
+            while(cur.Next!=null&&cur.Next.Next!=null)
+            {
+                //存下要交换第一个元素
+                ListNode tmp1= cur.Next;
+                //存下下一次要交换的元素
+                ListNode temp2= cur.Next.Next.Next;
+                cur.Next = cur.Next.Next;
+                cur.Next.Next=tmp1;
+                cur.Next.Next.Next = temp2;
+                cur = cur.Next.Next;
+            }
             return dummyHead.Next;
+
+
         }
     }
    
@@ -53,5 +79,9 @@
             Value = x;
 
         }
+    }
+    public class xx
+    {
+        public int Value;
     }
 }
