@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "有效的字母异位词", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "查找常用字符", "..\查找常用字符\查找常用字符.csproj", "{DDA16E1C-6BF6-4ADD-86B1-4D623E16D254}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "两个数组的交集", "..\两个数组的交集\两个数组的交集.csproj", "{E9FC1195-1510-4CF8-A43A-D29D1789B5B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{DDA16E1C-6BF6-4ADD-86B1-4D623E16D254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDA16E1C-6BF6-4ADD-86B1-4D623E16D254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDA16E1C-6BF6-4ADD-86B1-4D623E16D254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9FC1195-1510-4CF8-A43A-D29D1789B5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9FC1195-1510-4CF8-A43A-D29D1789B5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9FC1195-1510-4CF8-A43A-D29D1789B5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9FC1195-1510-4CF8-A43A-D29D1789B5B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +123,7 @@ Global
 		{58C8997D-F880-484C-9681-6818D4A13A72} = {4F2C8160-26DF-4254-89E8-9AE633B483D4}
 		{A8ED3A88-29EF-4E14-84A2-033D62F4342C} = {DD9608EA-0538-4707-8132-B9F7842B1642}
 		{DDA16E1C-6BF6-4ADD-86B1-4D623E16D254} = {DD9608EA-0538-4707-8132-B9F7842B1642}
+		{E9FC1195-1510-4CF8-A43A-D29D1789B5B8} = {DD9608EA-0538-4707-8132-B9F7842B1642}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F91DE4E-B6B9-4866-A0E0-78C4F67FD1DD}
