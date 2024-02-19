@@ -29,23 +29,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "反转链表", "..\反转�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "交换元素", "..\交换元素\交换元素.csproj", "{AC611C92-60E2-4637-897E-6B5F8C24772C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "删除倒数第N个元素", "..\删除倒数第N个元素\删除倒数第N个元素.csproj", "{CD73D245-ECD6-46CF-A010-FAD841581981}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "删除倒数第N个元素", "..\删除倒数第N个元素\删除倒数第N个元素.csproj", "{CD73D245-ECD6-46CF-A010-FAD841581981}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "链表相交", "..\链表相交\链表相交.csproj", "{E31185B8-6FA5-4168-9D47-8CD5D3856BE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "链表相交", "..\链表相交\链表相交.csproj", "{E31185B8-6FA5-4168-9D47-8CD5D3856BE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "环形链表", "..\环形链表\环形链表.csproj", "{58C8997D-F880-484C-9681-6818D4A13A72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "环形链表", "..\环形链表\环形链表.csproj", "{58C8997D-F880-484C-9681-6818D4A13A72}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "哈希表", "哈希表", "{DD9608EA-0538-4707-8132-B9F7842B1642}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "有效的字母异位词", "..\有效的字母异位词\有效的字母异位词.csproj", "{A8ED3A88-29EF-4E14-84A2-033D62F4342C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "有效的字母异位词", "..\有效的字母异位词\有效的字母异位词.csproj", "{A8ED3A88-29EF-4E14-84A2-033D62F4342C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "查找常用字符", "..\查找常用字符\查找常用字符.csproj", "{DDA16E1C-6BF6-4ADD-86B1-4D623E16D254}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "查找常用字符", "..\查找常用字符\查找常用字符.csproj", "{DDA16E1C-6BF6-4ADD-86B1-4D623E16D254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "两个数组的交集", "..\两个数组的交集\两个数组的交集.csproj", "{E9FC1195-1510-4CF8-A43A-D29D1789B5B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "两个数组的交集", "..\两个数组的交集\两个数组的交集.csproj", "{E9FC1195-1510-4CF8-A43A-D29D1789B5B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "快乐数", "..\快乐数\快乐数.csproj", "{ED1A983F-C59C-440A-980E-1EB2B482FEA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "快乐数", "..\快乐数\快乐数.csproj", "{ED1A983F-C59C-440A-980E-1EB2B482FEA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "两数之和", "..\两数之和\两数之和.csproj", "{073E5C64-0038-44E2-9BBF-3C3B2569AA22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "两数之和", "..\两数之和\两数之和.csproj", "{073E5C64-0038-44E2-9BBF-3C3B2569AA22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "赎金信", "..\赎金信\赎金信.csproj", "{6B580477-822D-4A20-A756-CCE26F98D509}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "四数相加", "..\四数相加\四数相加.csproj", "{2E64E55D-630C-44C4-B383-4C3A9514EDFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "三数之和", "..\三数之和\三数之和.csproj", "{1788032C-B010-47A3-9C66-49F342DD476A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +123,18 @@ Global
 		{073E5C64-0038-44E2-9BBF-3C3B2569AA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{073E5C64-0038-44E2-9BBF-3C3B2569AA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{073E5C64-0038-44E2-9BBF-3C3B2569AA22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B580477-822D-4A20-A756-CCE26F98D509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B580477-822D-4A20-A756-CCE26F98D509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B580477-822D-4A20-A756-CCE26F98D509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B580477-822D-4A20-A756-CCE26F98D509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E64E55D-630C-44C4-B383-4C3A9514EDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E64E55D-630C-44C4-B383-4C3A9514EDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E64E55D-630C-44C4-B383-4C3A9514EDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E64E55D-630C-44C4-B383-4C3A9514EDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1788032C-B010-47A3-9C66-49F342DD476A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1788032C-B010-47A3-9C66-49F342DD476A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1788032C-B010-47A3-9C66-49F342DD476A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1788032C-B010-47A3-9C66-49F342DD476A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,6 +156,9 @@ Global
 		{E9FC1195-1510-4CF8-A43A-D29D1789B5B8} = {DD9608EA-0538-4707-8132-B9F7842B1642}
 		{ED1A983F-C59C-440A-980E-1EB2B482FEA4} = {DD9608EA-0538-4707-8132-B9F7842B1642}
 		{073E5C64-0038-44E2-9BBF-3C3B2569AA22} = {DD9608EA-0538-4707-8132-B9F7842B1642}
+		{6B580477-822D-4A20-A756-CCE26F98D509} = {DD9608EA-0538-4707-8132-B9F7842B1642}
+		{2E64E55D-630C-44C4-B383-4C3A9514EDFE} = {DD9608EA-0538-4707-8132-B9F7842B1642}
+		{1788032C-B010-47A3-9C66-49F342DD476A} = {DD9608EA-0538-4707-8132-B9F7842B1642}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F91DE4E-B6B9-4866-A0E0-78C4F67FD1DD}

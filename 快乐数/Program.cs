@@ -21,7 +21,7 @@
         }
         public bool Solution(int n)
         {
-            //关键：不是快乐数会出现循环
+            //关键：不是快乐数会出现循环，存在和相等的情况
             HashSet<int> visited = new HashSet<int>();
             while (n!=1&&visited.Contains(n))
             {

@@ -1,4 +1,6 @@
-﻿namespace 两数之和
+﻿using Lucene.Net.Support;
+
+namespace 两数之和
 {
     internal class Program
     {
@@ -15,17 +17,23 @@
         {
             Console.WriteLine("Hello, World!");
         }
-        public void Solution(int[] nums, int target)
+        public int[] Solution(int[] nums, int target)
         {
-            HashMap<int,int> visited = new HashSet<int>();
+            HashMap<int,int> visited = new HashMap<int,int>();
             for (int i = 0; i < nums.Length; i++)
             {
                 int n = target - nums[i];
-                if (!visited.Contains(n))
+                if (visited.ContainsKey(n) && visited[n]!=i)
                 {
-                    visited.Add(n);
+                    return new int[] { i, nums[n]};
                 }
+                if (!visited.ContainsKey(nums[i]))
+                {
+                    visited.Add(nums[i],i);
+                }
+                
             }
+            return new int[] { 0, 0 };
         }
     }
 }
